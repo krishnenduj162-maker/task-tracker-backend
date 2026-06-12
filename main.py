@@ -16,7 +16,7 @@ load_dotenv()
 
 #client = OpenAI(
  #   api_key=os.getenv("OPENAI_API_KEY")
-)
+#)
 
 # ===================== MIDDLEWARE =====================
 app.add_middleware(
