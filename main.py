@@ -5,7 +5,7 @@ from models import Task, User
 from schemas import TaskCreate, PriorityRequest
 
 from dotenv import load_dotenv
-from openai import OpenAI
+#from openai import OpenAI
 import os
 
 app = FastAPI()
@@ -14,8 +14,8 @@ def home():
     return {"message": "Backend is running on Railway 🚀"}
 load_dotenv()
 
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
+#client = OpenAI(
+ #   api_key=os.getenv("OPENAI_API_KEY")
 )
 
 # ===================== MIDDLEWARE =====================
